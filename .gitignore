@@ -1,0 +1,41 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+vendor/
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.sql
+!database/schema.sql
+!database/sample_data.sql
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# Uploads
+uploads/
+reports/exports/
+
+# QR Codes
+qr/generated/
+
+# OS
+.DS_Store
+Thumbs.db
